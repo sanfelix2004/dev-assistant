@@ -1,0 +1,25 @@
+# Ambiente virtuale
+venv/
+.venv/
+
+# Chiavi/API segrete
+.env
+*.env
+
+# Cache e file temporanei
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# File generati dal prompt
+generated_projects/output_step_*.txt
+
+# Sistema operativo (Windows/macOS/Linux)
+.DS_Store
+Thumbs.db
+
+# IDE/Editor (VSCode, PyCharm, ecc.)
+.vscode/
+.idea/
